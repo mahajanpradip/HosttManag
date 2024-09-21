@@ -1,0 +1,33 @@
+@charset "ISO-8859-1";
+
+.divr{
+	border-radius:20%;
+	border:solid,black,2px;
+
+	height:300px;
+	width:400px;
+	margin-top:50px;
+	margin-left:500px;
+	padding:10px;
+	background-color:pink;
+	
+}
+
+#sentence{
+	padding-top:100px;
+	padding-left:50px;
+	padding-right:130px;
+	padding-bottom:10px;
+	
+}
+
+#submit{
+	color:black;
+	height:60px;
+	padding:10px,10px,10px,10px;
+}
+.button{
+	padding-left:130px;
+	padding-bottom:5px
+	
+}

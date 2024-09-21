@@ -1,0 +1,34 @@
+@charset "ISO-8859-1";
+.adminbox{
+
+	border-radius:20%;
+	border:solid,black,5px;
+	height:300px;
+	width:400px;
+	margin-top:100px;
+	margin-left:500px;
+	margin-bottom:10px;
+	padding:10px;
+	background-color:pink;
+	box-shadow:0 0 20px 20px black;
+	animation-name:box;
+	animation-duration:5s;
+}
+@keyframes box{
+	0%{background-color:#cda85c;}
+	25%{background-color:yellow;}
+	75%{background-color:#808080;}
+	100%{background-color:#acf2ed;}
+}
+#admin{
+	font-size:50px;
+	text-shadow:3px 3px red, 0 0 50px red,0 0 25px red;
+}
+#enterbutton{
+	height:60px;
+	width:120px;
+	border-radius:20%;
+	border:solid,black,4px;
+	margin-top:20px;
+	box-shadow: 0 0 10px 10px red inset;
+}

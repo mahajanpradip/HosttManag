@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+.center{
+	border:center;
+	border:solid,black,2px;
+	height:500px;
+	width:400px;
+	margin-top:70px;
+	margin-left:550px;
+	border-radius:10%;
+}
+.fname{
+	padding:5px,10px;
+	margin-right:50px;
+}
+.lname{
+	padding:5px,10px;
+	margin-right:50px;
+	
+}
+.mnumber{
+	padding:5px,10px;
+	margin-right:20px;
+	
+}
+.uemail{
+	padding:5px,10px;
+	margin-right:63px;
+
+}
+.address{
+	padding:5px,10px;
+	margin-right:66px;
+	
+}
+.anumber{
+	padding:5px,10px;
+	margin-right:30px;
+	
+}

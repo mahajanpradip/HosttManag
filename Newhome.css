@@ -1,0 +1,79 @@
+@charset "ISO-8859-1";
+.body{
+	background-color:#d8d8ca;
+}
+.ok{
+	color:yellow;
+	border:solid,black,5px;
+	border-width:10px;
+	border-radius:50%;
+	animation-name:okk;
+	animation-duration:1s;
+}
+.ok{
+	text-shadow:3px 3px white;
+	box-shadow: 0 0 20px 20px yellow;
+}
+#sentence{
+	
+	text-shadow:1px 3px  5px #80ffff,0 0 55px white,0 0 55px white;
+}
+@keyframes okk{
+	0%{color:red;}
+	25%{color:#de77e3;}
+	75%{color:#d38f2c;}
+	100%{color:#800000;}
+}
+.divr{ 
+    box-shadow: 0 0 20px 20px black;
+	animation-name:change;
+	animation-duration:1s;
+}
+
+@keyframes change{
+	0%{background-color:#808080;}
+	25%{background-color:yellow;}
+	75%{background-color:pink;}
+	100%{background-color:#737000;}
+}
+.divr{
+	margin-left:100px;
+	margin-top:200px;
+}
+.view{
+
+	border-radius:20%;
+	border:solid,black,5px;
+	height:300px;
+	width:400px;
+	margin-top:100px;
+	margin-left:500px;
+	margin-bottom:10px;
+	padding:10px;
+	background-color:pink;
+	box-shadow:0 0 20px 20px black;
+	animation-name:boxanimation;
+	animation-duration:1s;
+}
+@keyframes boxanimation{
+	0%{background-color:#cda85c;}
+	25%{background-color:yellow;}
+	75%{background-color:#808080;}
+	100%{background-color:#acf2ed;}
+}
+#text{
+	font-size:50px;
+	text-shadow:3px 3px red, 0 0 50px red,0 0 25px red;
+}
+#viewbutton{
+	height:60px;
+	width:120px;
+	border-radius:20%;
+	border:solid,black,4px;
+	margin-top:20px;
+	box-shadow: 0 0 10px 10px red inset;
+}
+#submit{
+	border-radius:20%;
+	box-shadow: 0 0 10px 10px #696969 inset;
+}
